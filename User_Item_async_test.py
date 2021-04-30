@@ -13,6 +13,6 @@ async def main():
     print(response2.text)
     print(response3.text)
 
-#while True:
+while True:
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
